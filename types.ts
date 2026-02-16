@@ -1,7 +1,6 @@
-
 export enum View {
   DASHBOARD = 'DASHBOARD',
-  CLASSROOM = 'CLASSROOM',
+  JOURNAL = 'JOURNAL',
   SETTINGS = 'SETTINGS'
 }
 
@@ -25,6 +24,16 @@ export interface Lesson {
   time: string;
   instructor: string;
   status: 'upcoming' | 'live' | 'completed';
+}
+
+export interface StudentJournalRecord {
+  id: string;
+  fullName: string;
+  className: string;
+  attendance: number;
+  averageGrade: number;
+  latestGrades: number[];
+  notes: string;
 }
 
 export interface User {
