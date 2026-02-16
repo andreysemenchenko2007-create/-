@@ -1,0 +1,8 @@
+{
+  "name": "Copy of EduStream AI - Smart Virtual Classroom",
+  "description": "A cutting-edge online lesson platform featuring AI-powered teaching assistance, real-time voice interactions, and interactive learning tools.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
